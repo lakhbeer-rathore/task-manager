@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+}
+
+.task-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.task-card h3 {
+    margin: 0;
+    color: #222;
+}
+
+.task-card p {
+    color: #666;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.add-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.logout-btn {
+    background-color: #555;
+    color: white;
+}
+
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+.edit-box {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
